@@ -20,7 +20,7 @@ Dog& Dog::operator=(const Dog& copy)
 
 void Dog::makeSound() const
 {
-	std::cout << "imitate Ishowspeed" << " ?whatthedoggoing?"<< std::endl;
+	std::cout << "imitate Ishowspeed" << " ?whatthe"<< type <<"doing?"<< std::endl;
 }
 
 Dog::~Dog()
